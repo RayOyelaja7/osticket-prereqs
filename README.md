@@ -18,7 +18,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Microsoft Azure
+- ISS 
 - Resource Group
 - Virtual Network
 - Subnet 
@@ -27,30 +27,33 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-  
-<![image](https://github.com/RayOyelaja7/osticket-prereqs/assets/151464086/bf06c759-ece7-4818-a616-1b1fdd716f0b)>
+
+<![STEP 1 IIS INSTALL](https://github.com/RayOyelaja7/osticket-prereqs/assets/151464086/00e07404-5c84-4e26-b414-4bd35203396f)>
 
 </p>
 <p>
-Create a Virtual Machine (VM-osticket) inside Resoure Group (RG-osticket) using Microsoft Azure (Subscription 1)
+Inside VM enable IIS
 
-</p>
-<br />
-
-<p>
-
-  <![image](https://github.com/RayOyelaja7/osticket-prereqs/assets/151464086/e50705f9-6b06-4329-ae42-e50adb3e3bdc)>
-
-</p>
-<p>
-  On the networking tab notice the Virtual Network (VM-osticket-vnet), the Subnet with private IP address of 10.0.0.0/24
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  <![STEP 2 IIS INSTALL](https://github.com/RayOyelaja7/osticket-prereqs/assets/151464086/60f028f6-5566-4139-a91b-f5ed59ac8796)>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Make sure all boxes are checked in the Common HTTP features folder
+</p>
+<br />
+
+<p>
+<![Step 3 IIS INSTALL](https://github.com/RayOyelaja7/osticket-prereqs/assets/151464086/54fa5b5c-9b9b-46ce-b318-2e197a83a5bb)>
+</p>
+<p>
+To check if IIS web server has been enabled, go to web browser and go to 127.0.0.1 ; if install has gone correctly this website should appear
+</p>
+<p>
+
 </p>
 <br />
