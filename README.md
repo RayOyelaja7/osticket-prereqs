@@ -48,12 +48,39 @@ Inside VM enable IIS
 <br />
 
 <p>
+
+  
 <![Step 3 IIS INSTALL](https://github.com/RayOyelaja7/osticket-prereqs/assets/151464086/54fa5b5c-9b9b-46ce-b318-2e197a83a5bb)>
+
+
 </p>
+
 <p>
 To check if IIS web server has been enabled, go to web browser and go to 127.0.0.1 ; if install has gone correctly this website should appear
+
+
+
 </p>
 <p>
 
 </p>
 <br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
